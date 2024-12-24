@@ -1,0 +1,86 @@
+
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+/*@import '@picocss/pico/css/pico.conditional.css';*/
+/*@import './overrides.css';
+
+@import './toolbar.css';
+@import './tree.css';
+
+@import './popover.css';
+@import './dropdown.css';*/
+.card {
+	width: 300px;
+	border: var(--border-size-1) solid var(--gray-2);
+	border-radius: var(--radius-2);
+	backgound: var(--surface-2);
+	box-shadow: var(--shadow-2);
+}
+.card__body {
+	position: relative;
+}
+.card__footer {
+	border-width: 0;
+	
+}
+.card,
+.card__footer {
+	border: var(--border-size-1) solid var(--gray-2);
+}
+.card__body,
+.card__footer {
+	padding: var(--size-2);
+}
+.card__title {
+	font-size: var(--font-size-1);
+	font-weight: var(--font-weight-6);
+}
+.hstack {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0;
+}
+.hstack--spacing_1 {
+	column-gap: var(--size-1);
+}
+.hstack--spacing_2 {
+	column-gap: var(--size-2);
+}
+.hstack--spacing_3 {
+	column-gap: var(--size-3);
+}
+.vstack {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0;
+}
+.vstack--spacing_1 {
+	row-gap: var(--size-1);
+}
+.vstack--spacing_2 {
+	row-gap: var(--size-2);
+}
+.vstack--spacing_3 {
+	row-gap: var(--size-3);
+}
+.text-input {}
+.text-input__label {
+	display: block
+}
+.form-field {
+    
+}
+.form-field__label {
+	display: block;
+}
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}

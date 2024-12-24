@@ -1,0 +1,17 @@
+.hstack {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0;
+}
+
+.hstack--spacing_1 {
+	column-gap: var(--size-1);
+}
+
+.hstack--spacing_2 {
+	column-gap: var(--size-2);
+}
+
+.hstack--spacing_3 {
+	column-gap: var(--size-3);
+}

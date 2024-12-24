@@ -1,0 +1,31 @@
+.card {
+	width: 300px;
+	border: var(--border-size-1) solid var(--gray-2);
+	border-radius: var(--radius-2);
+	backgound: var(--surface-2);
+	box-shadow: var(--shadow-2);
+}
+
+.card__body {
+	position: relative;
+}
+
+.card__footer {
+	border-width: 0;
+	
+}
+
+.card,
+.card__footer {
+	border: var(--border-size-1) solid var(--gray-2);
+}
+
+.card__body,
+.card__footer {
+	padding: var(--size-2);
+}
+
+.card__title {
+	font-size: var(--font-size-1);
+	font-weight: var(--font-weight-6);
+}

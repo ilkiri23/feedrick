@@ -1,0 +1,17 @@
+.vstack {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0;
+}
+
+.vstack--spacing_1 {
+	row-gap: var(--size-1);
+}
+
+.vstack--spacing_2 {
+	row-gap: var(--size-2);
+}
+
+.vstack--spacing_3 {
+	row-gap: var(--size-3);
+}

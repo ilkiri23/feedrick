@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  padding: 0.25rem;
+  justify-content: space-between;
+}
+
+.toolbar__group {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.toolbar__button {
+  all: revert;
+}

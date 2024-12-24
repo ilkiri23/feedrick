@@ -1,0 +1,27 @@
+.tree {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tree__node {
+  /*  */
+}
+
+.tree__inner {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.tree__toggle {
+  user-select: none;
+  cursor: pointer;
+}
+
+.tree__more-button {
+/*	all: revert;*/
+}
+
+.tree__node[aria-expanded="false"] .tree__children {
+  display: none;
+}

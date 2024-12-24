@@ -1,0 +1,5 @@
+{
+	"reportAny": false,
+	"reportUninitializedInstanceVariable": false,
+	"reportUnusedCallResult": false
+}

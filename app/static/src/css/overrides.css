@@ -1,0 +1,27 @@
+:root {
+  --font-size: 13px;
+  --form-element-spacing-vertical: 0.5rem;
+  --form-element-spacing-horizontal: 0.75rem;
+}
+
+button {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+  font-size: var(--font-size);
+}
+
+button.size_sm,
+input.size_sm {
+  --font-size: 12px;
+  --form-element-spacing-vertical: 0.33rem;
+  --form-element-spacing-horizontal: 0.66rem;
+}
+
+details {
+  margin-bottom: 0;
+}
+
+.sortable-ghost {
+  background-color: red;
+}

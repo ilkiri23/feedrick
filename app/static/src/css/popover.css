@@ -1,0 +1,8 @@
+.popover {
+	position: absolute;
+	padding: calc(var(--pico-form-element-spacing-vertical) * 0.5) var(--pico-form-element-spacing-horizontal);
+	border: var(--pico-border-width) solid var(--pico-dropdown-border-color);
+	border-radius: var(--pico-border-radius);
+	background-color: var(--pico-dropdown-background-color);
+	box-shadow: var(--pico-card-box-shadow);
+}
